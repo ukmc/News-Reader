@@ -60,8 +60,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text text Text text Text text Text text Text text Text text Text text Text text " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFI-MH-wAR">
-                                                    <rect key="frame" x="146" y="81.5" width="213" height="57.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text text Text text Text text Text text Text text Text text Text text Text text text text text text text txt xtxttxtxttxtxt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFI-MH-wAR">
+                                                    <rect key="frame" x="146" y="82" width="213" height="57.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="213" id="6uk-Pj-NSh"/>
                                                         <constraint firstAttribute="height" constant="57.5" id="ZFY-7e-1dI"/>
@@ -71,7 +71,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bNj-3d-WlQ">
-                                                    <rect key="frame" x="315" y="175" width="44" height="17"/>
+                                                    <rect key="frame" x="315" y="175.5" width="44" height="16.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -98,7 +98,6 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="xFI-MH-wAR" secondAttribute="trailing" constant="8" id="RYS-5A-yl3"/>
                                                 <constraint firstItem="bNj-3d-WlQ" firstAttribute="top" secondItem="xFI-MH-wAR" secondAttribute="bottom" constant="36" id="UnY-sF-qd6"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="bNj-3d-WlQ" secondAttribute="trailing" constant="8" id="Zkh-T5-tb0"/>
-                                                <constraint firstItem="bNj-3d-WlQ" firstAttribute="leading" secondItem="GTB-Op-Hv9" secondAttribute="leadingMargin" constant="307" id="aWw-vn-ihs"/>
                                                 <constraint firstItem="bNj-3d-WlQ" firstAttribute="bottom" secondItem="GTB-Op-Hv9" secondAttribute="bottomMargin" id="dF9-6p-z9J"/>
                                                 <constraint firstItem="eiD-SW-Q6t" firstAttribute="top" secondItem="GTB-Op-Hv9" secondAttribute="topMargin" constant="27" id="e3d-dA-zBU"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="eiD-SW-Q6t" secondAttribute="trailing" constant="8" id="kWp-TR-P9n"/>
