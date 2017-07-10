@@ -10,6 +10,7 @@ import UIKit
 
 class ArticleCell: UITableViewCell {
     
+    
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var desc: UILabel!
