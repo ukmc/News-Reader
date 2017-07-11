@@ -84,7 +84,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return self.articles?.count ?? 0
         
     }
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let webVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "web") as! WebviewViewController
+        
+        webVC.url = self.articles?[indexPath.item].url
+        
+        self.present(webVC, animated: true, completion: nil)
+        
+    }
 }
 
 extension UIImageView {
