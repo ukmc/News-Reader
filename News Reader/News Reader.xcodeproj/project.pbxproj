@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64EEC3F11F16B8C40085FAC9 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEC3F01F16B8C40085FAC9 /* MenuManager.swift */; };
+		64EEC3F31F16BEE20085FAC9 /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64EEC3F21F16BEE20085FAC9 /* BaseCell.xib */; };
+		64EEC3F51F16C11E0085FAC9 /* BaseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEC3F41F16C11E0085FAC9 /* BaseViewCell.swift */; };
 		64F044E21F14F77C0047DE61 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F044E11F14F77C0047DE61 /* WebviewViewController.swift */; };
 		64F0FB821F13C6450016FD35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0FB811F13C6450016FD35 /* AppDelegate.swift */; };
 		64F0FB841F13C6450016FD35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0FB831F13C6450016FD35 /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64EEC3F01F16B8C40085FAC9 /* MenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		64EEC3F21F16BEE20085FAC9 /* BaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
+		64EEC3F41F16C11E0085FAC9 /* BaseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewCell.swift; sourceTree = "<group>"; };
 		64F044E11F14F77C0047DE61 /* WebviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
 		64F0FB7E1F13C6450016FD35 /* News Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F0FB811F13C6450016FD35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 				64F0FBAF1F13CD3A0016FD35 /* ArticleCell.swift */,
 				64F0FBB11F13CEAE0016FD35 /* Article.swift */,
 				64F044E11F14F77C0047DE61 /* WebviewViewController.swift */,
+				64EEC3F01F16B8C40085FAC9 /* MenuManager.swift */,
+				64EEC3F21F16BEE20085FAC9 /* BaseCell.xib */,
+				64EEC3F41F16C11E0085FAC9 /* BaseViewCell.swift */,
 			);
 			path = "News Reader";
 			sourceTree = "<group>";
@@ -244,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EEC3F31F16BEE20085FAC9 /* BaseCell.xib in Resources */,
 				64F0FB8C1F13C6450016FD35 /* LaunchScreen.storyboard in Resources */,
 				64F0FB891F13C6450016FD35 /* Assets.xcassets in Resources */,
 				64F0FB871F13C6450016FD35 /* Main.storyboard in Resources */,
@@ -271,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EEC3F11F16B8C40085FAC9 /* MenuManager.swift in Sources */,
+				64EEC3F51F16C11E0085FAC9 /* BaseViewCell.swift in Sources */,
 				64F0FBB21F13CEAE0016FD35 /* Article.swift in Sources */,
 				64F044E21F14F77C0047DE61 /* WebviewViewController.swift in Sources */,
 				64F0FB841F13C6450016FD35 /* ViewController.swift in Sources */,
