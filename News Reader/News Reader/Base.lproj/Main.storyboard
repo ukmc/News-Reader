@@ -54,7 +54,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="201"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EXC-WD-RiB" id="GTB-Op-Hv9">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title! Title! Title! Title! Title! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiD-SW-Q6t">
@@ -156,7 +156,7 @@
         <!--Webview View Controller-->
         <scene sceneID="Xfk-3Z-N2s">
             <objects>
-                <viewController storyboardIdentifier="web" id="re4-zH-rBC" customClass="WebviewViewController" customModule="News_Reader" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="webVC" id="re4-zH-rBC" customClass="WebviewViewController" customModule="News_Reader" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QyM-M2-cyT"/>
                         <viewControllerLayoutGuide type="bottom" id="wmM-xw-UB0"/>
